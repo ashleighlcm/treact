@@ -17,16 +17,19 @@
         <nav>
             <div class="row nav__row">
                 <div class="nav__logo">
-                <img src="./assets/assets-2/logo.2c489fc453a1783cbadacf914efa3df6.svg">
+                <img class="nav__logo--img" src="./assets/assets-2/logo.2c489fc453a1783cbadacf914efa3df6.svg">
+                <div class="nav__logo--title">Treact</div>
                 </div>
                
-                 <ul class="modal__links">
-                    <li><a href="#" class="modal__link">About</a></li>
-                    <li><a href="#" class="modal__link">Blog</a></li>
-                    <li><a href="#" class="modal__link">Pricing</a></li>
-                    <li><a href="#" class="modal__link">Contact</a></li>
-                    <li><a href="#" class="modal__link">Login</a></li>
-                 </ul> 
+                 <div class="nav__links">
+                    <a href="#" class="nav__link">About</a>
+                    <a href="#" class="nav__link">Blog</a>
+                    <a href="#" class="nav__link">Pricing</a>
+                    <a href="#" class="nav__link">Contact</a>
+                    <a href="#" class="nav__link Login">Login</a>
+                    <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+                 </div> 
+
                 <button class="btn__menu" onclick="openMenu()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -56,18 +59,39 @@
                 <a class="modal__link modal__link--primary">Sign Up</a>
             </div>
         </div>
+
         <header>
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Header / About Us Section<!--  -->
+                    <div class="header__description">
+                        <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
+                        <p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                    <div class="header__email">
+                        <input type="text" class="header__email--input" placeholder="Your E-mail Address">
+                            <div useragentpart="placeholder">Your E-mail Address</div>
+                            <div contenteditable="plaintext-only"></div>
+                        </input>
+                    <button class="header__email--btn">Get Started</button>
+                    </div>
+                    <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+                    <img src="./assets/assets-2/customers-logo-strip.680ac7c2e8ae28161d2c.png" class="header__customers">
             </div>
-        </header>
+            <figure class="header__img--wrapper">
+                <img src="./assets/assets-2/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" class="header__img">
+            </figure>
+        </div>
+    </div>
+</header>
     </section>
     <main>
         <section id="features">
             <div class="container">
                 <div class="row__narrow">
-                    <!--  -->Enter Features Section<!--  -->
+                   <h4 class="section__tag">FEATURES</h4>
+                   <h2 class="section__title">We have amazing <span class="purple">service.</span></h2>
+                   <div class="section__para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit laboriosam voluptas veritatis quis! Voluptatem non incidunt at inventore mollitia necessitatibus cum. Fugit quas libero eius eaque rerum dignissimos recusandae.
+                   </div>
                 </div>
             </div>
         </section>
