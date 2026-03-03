@@ -313,7 +313,7 @@ FEATURES ↓
 
 .features {
   justify-content: center;
-  max-width: 768px;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -322,7 +322,7 @@ FEATURES ↓
 
 .feature {
   width: auto;
-  max-width: 384px;
+  max-width: 320px;
 }
 
 .feature__row {
@@ -330,7 +330,6 @@ FEATURES ↓
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: calc(100%/3);
 }
 
 .feature__img--wrapper {
@@ -351,6 +350,7 @@ FEATURES ↓
 }
 
 .feature__title {
+  display: flex;
   line-height: 1;
 }
 
